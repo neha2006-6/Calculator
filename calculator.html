@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+
+height: 100vh;
+justify-content: center;
+align-items: center;
+display: flex;
+background:linear-gradient(to right,rgba(18, 188, 231, 0.6),#6766);
+}
+    </style>
+</head>
+<body>
+  <div class="kris">
+    <h1>Calculator</h1>
+    <input type="number" id="numinput" placeholder="Enter first number">
+    <br>
+    <br>
+      <input type="number" id="secinput" placeholder="Enter second number">
+      <br>
+      <br>
+      
+      <div class="nish">
+      <button onclick="cal()">+</button>
+        <button onclick="sub()">-</button>
+          <button onclick="mult()">*</button>
+            <button onclick="mod()">/</button>
+            </div>
+            <br><br>
+
+            <div id="result"></div>
+            <script>
+                function cal(){
+                    let n1= document.getElementById("numinput").value;
+                    n1=Number(n1)
+                       let n2= document.getElementById("secinput").value;
+                        n2=Number(n2)
+
+                             let resultDiv = document.getElementById("result");
+                               resultDiv.innerHTML = "";
+                               
+ if(n1==""& n2=="")    {
+     resultDiv.innerHTML = "Please enter a number.";
+        return;
+ }
+        let result=n1+n2;
+                      resultDiv.innerHTML += `${result}`        
+                }
+function sub(){
+let n1=document.getElementById("numinput").value;
+n1=Number(n1);
+let n2=document.getElementById("secinput").value;
+n2=Number(n2);
+let resultDiv=document.getElementById("result");
+resultDiv.innerHTML="";
+if(n1==""& n2=="")    {
+     resultDiv.innerHTML = "Please enter a number.";
+        return;
+ }
+ let result=n1-n2;
+    resultDiv.innerHTML += `${result}`  
+}
+function mult(){
+let n1=document.getElementById("numinput").value;
+n1=Number(n1);
+let n2=document.getElementById("secinput").value;
+n2=Number(n2);
+let resultDiv=document.getElementById("result");
+resultDiv.innerHTML="";
+if(n1==""& n2=="")    {
+     resultDiv.innerHTML = "Please enter a number.";
+        return;
+ }
+ let result=n1*n2;
+    resultDiv.innerHTML += `${result}`  
+}
+function mod(){
+let n1=document.getElementById("numinput").value;
+n1=Number(n1);
+let n2=document.getElementById("secinput").value;
+n2=Number(n2);
+let resultDiv=document.getElementById("result");
+resultDiv.innerHTML="";
+if(n1==""& n2=="")    {
+     resultDiv.innerHTML = "Please enter a number.";
+        return;
+ }
+ let result=n1/n2;
+    resultDiv.innerHTML += `${result}`  
+}
+
+            </script>
+    
+</body>
+</html>
