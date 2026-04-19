@@ -6,8 +6,8 @@ This is a basic calculator web application built using HTML, CSS, and JavaScript
 It performs standard arithmetic operations like:
 - Addition
 - Subtraction
-- Multiplication
 - Division
+- Multipliaction
 
 ## 💻 Features
 - Simple and user-friendly interface
