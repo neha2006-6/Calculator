@@ -1,2 +1,24 @@
 # Calculator
-This is a basic calculator web application built using HTML, CSS, and JavaScript. It performs standard arithmetic operations like addition, subtraction, multiplication, and division.  The project was created to practice core web development concepts such as DOM manipulation, event handling, and responsive design
+
+This is a basic calculator web application built using HTML, CSS, and JavaScript.
+
+## 📌 Description
+It performs standard arithmetic operations like:
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+## 💻 Features
+- Simple and user-friendly interface
+- Responsive design
+- Real-time calculations
+- Button click functionality
+
+## 🛠 Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## 👩‍💻 Author
+Neha Gujaran
